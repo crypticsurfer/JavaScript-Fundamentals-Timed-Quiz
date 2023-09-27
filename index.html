@@ -12,7 +12,10 @@
         <main>
             <header>
                 <h1>Javascript Coding Quiz</h1>
-                <p id="timer">Time: 120</p>
+                <div class="timer">
+                <p>Time:</p>
+                <p id="countdown">120</p>
+                </div>
             </header>
 
             <section id="startPage">
@@ -27,9 +30,28 @@
             </section>
 
             <section id="questionsPage" class="hidden">
-                <h1 id="questions"></h1>
-                <ol id="choices"></ol>
-                <p id="feedback" class="hiddenSpace"></p>
+                Choose an answer below:
+                <section id="answer0">
+                    <p></p>
+                    <span></span>
+                </section>
+
+                <section id="answer1">
+                    <p></p>
+                    <span></span>
+                </section>
+
+                
+                <section id="answer2">
+                    <p></p>
+                    <span></span>
+                </section>
+
+                
+                <section id="answer3">
+                    <p></p>
+                    <span></span>
+                </section>
             </section>
 
             <section id="submitScore" class="hidden">
@@ -48,5 +70,8 @@
             </section>
         </main>
     </div>
+    <footer>
+        <script src="./assets/script.js"></script>
+    </footer>
 </body>
 </html>
