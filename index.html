@@ -6,4 +6,31 @@
     <title>Javascript Quiz</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
+<body>
+
+    <div class="container">
+        <main>
+            <header>
+                <h1>Javascript Coding Quiz</h1>
+                <p id="timer">Time: 120</p>
+            </header>
+            <section id="startPage">
+            <p>
+                This Quiz will give you Javascript questions in a mutliple choice format. You will have 2 minutes to answer the questions.
+                Answer as many as you can before the time runs out!
+            </p>
+            <p>
+                Each incorrect answer will subtract 5 seconds. Good Luck!
+            </p>
+            <button class="hover-pointer" id="startButton">Start Quiz</button>
+            </section>
+            <section id="questionsPage" class="hidden">
+                <h1 id="questions"></h1>
+                <ol id="choices"></ol>
+                <p id="feedback" class="hiddenSpace"></p>
+            </section>
+
+        </main>
+    </div>
+</body>
 </html>
