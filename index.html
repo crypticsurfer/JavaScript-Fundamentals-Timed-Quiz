@@ -14,6 +14,7 @@
                 <h1>Javascript Coding Quiz</h1>
                 <p id="timer">Time: 120</p>
             </header>
+
             <section id="startPage">
             <p>
                 This Quiz will give you Javascript questions in a mutliple choice format. You will have 2 minutes to answer the questions.
@@ -24,12 +25,27 @@
             </p>
             <button class="hover-pointer" id="startButton">Start Quiz</button>
             </section>
+
             <section id="questionsPage" class="hidden">
                 <h1 id="questions"></h1>
                 <ol id="choices"></ol>
                 <p id="feedback" class="hiddenSpace"></p>
             </section>
 
+            <section id="submitScore" class="hidden">
+                <h1>Finished!</h1>
+                <p id="finalScore"></p>
+                <label for="inits">Enter Your Initials:</label>
+                <br>
+                <input type="text" name="inits" id="inits" maxlength="3">
+                <button class="hover-pointer" id="submitButton">Submit</button>
+            </section>
+
+            <section id="highScores" class="hidden">
+                <h1>High Scores</h1>
+                <ol id="topScores"></ol>
+                <button class="hover-pointer" id="restartButton">Restart</button>
+            </section>
         </main>
     </div>
 </body>
