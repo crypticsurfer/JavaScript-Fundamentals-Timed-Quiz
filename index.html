@@ -18,16 +18,19 @@
                 </div>
             </header>
 
-            <section id="startPage">
-            <p>
+            <p id="questionsDefault">
                 This Quiz will give you Javascript questions in a mutliple choice format. You will have 2 minutes to answer the questions.
                 Answer as many as you can before the time runs out!
             </p>
-            <p>
+            <p id="questionsDisplay">
+            
+            </p>
+            <p id="answersDefault">
                 Each incorrect answer will subtract 5 seconds. Good Luck!
             </p>
-            <button class="hover-pointer" id="startButton">Start Quiz</button>
-            </section>
+            <button class="btn" id="startButton">Start Quiz</button>
+            <br>
+            <button class="btn" id="hscorebtn">View High Scores</button>
 
             <section id="questionsPage" class="hidden">
                 Choose an answer below:
@@ -60,13 +63,13 @@
                 <label for="inits">Enter Your Initials:</label>
                 <br>
                 <input type="text" name="inits" id="inits" maxlength="3">
-                <button class="hover-pointer" id="submitButton">Submit</button>
+                <button class="btn" id="submitButton">Submit</button>
             </section>
 
             <section id="highScores" class="hidden">
                 <h1>High Scores</h1>
                 <ol id="topScores"></ol>
-                <button class="hover-pointer" id="restartButton">Restart</button>
+                <button class="btn" id="restartButton">Restart</button>
             </section>
         </main>
     </div>

@@ -6,8 +6,21 @@
     display: none;
 }
 
-.hover-pointer:hover {
+.btn {
+    border: none;
+    background-color: blueviolet;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 16px 16px 16px 22px;
+    padding: 16px 36px;
+    text-align: center;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsl(0, 100%, 75%);
 }
 
 .timer {
@@ -27,10 +40,6 @@ main {
 }
 
 header {
-    text-align: center;
-}
-
-#startPage {
     text-align: center;
 }
 
