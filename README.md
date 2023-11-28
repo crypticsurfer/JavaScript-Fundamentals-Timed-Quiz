@@ -13,3 +13,4 @@ MIT
 # Screenshot
 ![Alt text](<Javascript Quiz.PNG>)
 # Link to deployed app
+https://crypticsurfer.github.io/JavaScript-Fundamentals-Timed-Quiz/
