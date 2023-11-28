@@ -90,12 +90,12 @@ const gameData = {
    // highScores: [],
 };
 //hide the text on the starting page and replace it with questions/answers
-/*function hideDefaultText() {
+function hideDefaultText() {
     defaultQuestions.setAttribute("style", "display:none");
     defaultAnswers.setAttribute("style", "display:none");
     displayedAnswers.setAttribute("style", "display:flex; flex-direction: column");
     displayedQuestion.setAttribute("style", "diplay:block");
-}*/
+}
 
 //event listener for viewing high scores
 //hScoreBtn.addEventListener("click", viewHighScores)
